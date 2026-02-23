@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- HERO -->
+        <section class="hero">
+            <h1>Image Gallery</h1>
+            <p>Frontend Developer • UI Designer • Creative Coder</p>
+            <a href="#gallerySection" class="cta-btn">View My Work</a>
+        </section>
+
+        <!-- GALLERY SECTION -->
+        <section id="gallerySection">
+            <div class="section-header">
+                <h2>Selected Works</h2>
+                <button id="themeToggle" class="theme-btn">🌙</button>
+            </div>
+
+            <div class="filters" id="filters"></div>
+            <div class="gallery" id="gallery"></div>
+        </section>
+
+        <footer>
+            © 2026 Rahul Rathod. All rights reserved.
+        </footer>
+
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <button class="prev">&#10094;</button>
+        <img class="lightbox-img">
+        <button class="next">&#10095;</button>
+        <div class="counter" id="counter"></div>
+    </div>
+
+    <button id="scrollTop" class="scroll-top">↑</button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
